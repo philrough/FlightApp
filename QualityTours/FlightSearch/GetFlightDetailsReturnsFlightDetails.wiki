@@ -1,0 +1,16 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+!path ../projects/QualityTours/bin
+
+|import            |
+|com.flightapp.java|
+
+!1 Get Flight Details
+!3 This test verifies that the 'GetFlightDetails' feature returns the specific flight for the departure & arrival airport combination.
+
+|Get Flight Details Fixture                   |
+|departure|arrival|tktclass?|airline?|airfare?|
+|LGW      |CDG    |Coach    |BAA     |123     |
+|CDG      |LGW    |Coach    |BAA     |213     |

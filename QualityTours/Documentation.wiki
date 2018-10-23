@@ -1,0 +1,31 @@
+---
+Suite
+---
+Acceptance Criteria
+
+Quality Tours are a company that develops software for the travel industry. The company has identified an opportunity in the market 
+for travel agents to search for flights on behalf of their customers. They have a requirement for an application, developed in a leading technology,
+that allows users to search for flights between London and Paris. Quality Tours are keen to adopt a phased approach whereby the first release is a flight
+search feature for one route only. Over time, they expect to enhance the application such that more routes can added and tickets can actually be reserved and 
+purchased. The additional functionality will be developed and made available in future releases.
+
+Quality Tours have defined the following a acceptance criteria ...
+
+The application will be used by travel agents on behalf of their clients. The travel agent will be given a unique user name and password to log
+on to the application. If the user credentials are correct then the user should log on successfully and a welcome message should be displayed. If
+the user credentials are incorrect then an error message should be displayed.
+
+The travel agent will search for flights based on the route selected - London to Paris. There are two airports in London (Gatwick, Heathrow) 
+and two airports in Paris (Charles de Gaulle, Orly). The travel agent should also select the class of flight (Coach, Premium Economy, First) and the number 
+of tickets required. On searching for flights, the application should display the flight details selected (route, class, tickets) and the flights available (airline) 
+and cost (ticket cost, total cost).
+
+The travel agent should be able to conduct multiple searches in order to offer the available prices. The flight details should be cleared and updated
+after each search. Once complete, the travel agent should close the application.
+
+Quality Tours have adopted the traditional approach to software development in that an developer codes the application and hands it over for testing. The
+developer is a junior developer but has ensured that the code is high quality by supplying unit tests which give > 90% coverage. The developer has also 
+supplied automated functional tests. The developer is confident that the application is good enough to release.
+
+
+!contents -R2 -g -p -f -h

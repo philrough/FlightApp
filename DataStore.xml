@@ -1,0 +1,79 @@
+<?xml version = "1.0"?>
+<data>
+<company>
+	<employee empid = "101">
+		<firstname>Admin</firstname>
+		<lastname>Admin</lastname>
+		<password>Admin</password>
+		<designation>Admin Admin Admin</designation>
+	</employee>
+	<employee empid = "102">
+		<firstname>Abe</firstname>
+		<lastname>Lincoln</lastname>
+		<password>Gettysburg</password>
+		<designation>Top Hat Adventures</designation>
+	</employee>
+	<employee empid = "103">
+		<firstname>Bill</firstname>
+		<lastname>Clinton</lastname>
+		<password>improper</password>
+		<designation>Big Sax On Tour</designation>
+	</employee>
+</company>
+<flightdets>
+	<airports>
+		<airport>London Gatwick</airport>
+	</airports>
+	<airports>
+		<airport>London Heathrow</airport>
+	</airports>
+	<airports>
+		<airport>Paris CDG</airport>
+	</airports>
+	<airports>
+		<airport>Paris Orly</airport>
+	</airports>
+	<prices>
+		<airway>LGW-CDG</airway>
+		<airclass>Coach</airclass>
+		<airline>BAA</airline>
+		<airfare>123</airfare>
+	</prices>
+	<prices>
+		<airway>LGW-ORY</airway>
+		<airclass>Premium</airclass>
+		<airline>EasyJet</airline>
+		<airfare>132</airfare>
+	</prices>
+	<prices>
+		<airway>LHR-CDG</airway>
+		<airclass>Coach</airclass>
+		<airline>Air France</airline>
+		<airfare>112</airfare>
+	</prices>
+	<prices>
+		<airway>LHR-ORY</airway>
+		<airclass>First</airclass>
+		<airline>Blue</airline>
+		<airfare>121</airfare>
+	</prices>
+	<prices>
+		<airway>CDG-LGW</airway>
+		<airclass>Coach</airclass>
+		<airline>BAA</airline>
+		<airfare>213</airfare>
+	</prices>
+	<prices>
+		<airway>ORY-LGW</airway>
+		<airclass>Coach</airclass>
+		<airline>Lufthansa</airline>
+		<airfare>231</airfare>
+	</prices>
+	<prices>
+		<airway>ORY-LHR</airway>
+		<airclass>Coach</airclass>
+		<airline>KLM</airline>
+		<airfare>312</airfare>
+	</prices>
+</flightdets>
+</data>

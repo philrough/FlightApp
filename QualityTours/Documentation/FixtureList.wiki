@@ -1,0 +1,20 @@
+---
+Static
+---
+The following fixtures have been developed to support automated service tests.
+
+Fixture:	ServiceTestCheckUserCredentials
+Method:		checkUserCredentialsFromFromDataStore(username, password)
+Return:		Empty on success / Error Message of Failure
+
+Fixture:	ServiceTestGetUserCredentials
+Method:		GetUserCredentialsFromFromDataStore(username, password)
+Return:		last name and organisation to be displayed on the welcome label
+
+Fixture:	ServiceTestGetAirport
+Method:		getAirportFromDataStore()
+Return:		List of available Airports
+
+Fixture:	ServiceTestGetFlightDetails
+Method:		getFlightDetailsCredentialsFromFromDataStore(departure airport, arrival)
+Return:		Tkt Class, Airline and Airfare cost / totalcost. totalcost = cost times number of passengers
